@@ -13,21 +13,18 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
   get: ^4.6.6
+  flutter_native_splash: ^2.3.8
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^2.0.0
+
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.13.1"
-
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
@@ -36,15 +33,15 @@ flutter:
     - assets/logo/logo.png
 
 flutter_launcher_icons:
-  android: "launcher_icon"
+  android: true
   ios: true
   image_path: "assets/logo/logo.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
     image_path: "assets/logo/logo.png"
-    background_color: "#325e2a"
-    theme_color: "#76b044"
+    background_color: "#aeccab"
+    theme_color: "#aeccab"
   windows:
     generate: true
     image_path: "assets/logo/logo.png"
@@ -52,3 +49,18 @@ flutter_launcher_icons:
   macos:
     generate: true
     image_path: "assets/logo/logo.png"
+
+flutter_native_splash:
+  color: "#aeccab"
+  image: assets/logo/logo.png
+  color_dark: "#aeccab"
+  image_dark: assets/logo/logo.png
+  fullscreen: true
+  android_gravity: fill
+  web: false
+  android_12:
+    image: assets/logo/logo.png
+    icon_background_color: "#aeccab"
+    image_dark: assets/logo/logo.png
+    color_dark: "#aeccab"
+    icon_background_color_dark: "#aeccab"
