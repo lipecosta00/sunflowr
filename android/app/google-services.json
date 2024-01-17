@@ -7,6 +7,44 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:414359939562:android:008215270452b266cdaa93",
+        "android_client_info": {
+          "package_name": "com.sunflowr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrmrhKSwBFcNP_feVtsPdKWaGbPR-qyQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414359939562:android:d47333283dd8babfcdaa93",
+        "android_client_info": {
+          "package_name": "com.sunflowr.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrmrhKSwBFcNP_feVtsPdKWaGbPR-qyQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:414359939562:android:4584291a7592641acdaa93",
         "android_client_info": {
           "package_name": "com.sunflowr.sunflowr"
