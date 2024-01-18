@@ -44,8 +44,6 @@ jobs:
 
     - run: cd build/app && ls -a
 
-    - run: cd app && ls -a
-
     - run: cd build/app/outputs && ls -a
 
     - run: cd build/app/outputs/flutter-apk && ls -a
